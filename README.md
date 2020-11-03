@@ -25,7 +25,10 @@ a)**density estimation**:calculate a continous probablity density over the featu
 
 b)**Dimensionality reduction**: >find an approximate version of ure dataset using fewer features
 
-                                > used for exploring & visuvalizing a dataset to understand grouping or relationship
+                                 used for exploring & visuvalizing a dataset to understand grouping or relationship
                                 >ofen visuvalized using a 2-dimensional scatterplot 
                                 >also used for comparisson ,finding feature for supervised learning
-                                >one dimensional approximation is obtained by projecting the original points onto the diagonal line and using 
+                                >one dimensional approximation is obtained by projecting the original points onto the diagonal line and using their position on that line as new  single  feature
+   
+   
+   i)**PCA(principle component analysis)**: important form of dimensionality reduction , It takes cloud of original datapoints a rotation of fit .so the dimension are statistically uncorrelated .PCA then drops all the most informative initial dimensions that capture most of the variation in the original dataset.                             
