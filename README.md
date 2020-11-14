@@ -35,3 +35,36 @@ b)**Dimensionality reduction**: >find an approximate version of ure dataset usin
    i)**PCA(principle component analysis)**: important form of dimensionality reduction , It takes cloud of original datapoints a rotation of fit .so the dimension are statistically uncorrelated .PCA then drops all the most informative initial dimensions that capture most of the variation in the original dataset.    
    
    It can be thought of as a projection method where data with m-columns (features) is projected into a subspace with m or fewer columns, whilst retaining the essence of the original data.
+
+
+# clustering
+find a way to divide a dataset into groups[clusteres]
+
+datapoints within the same cluster sholud be 'closer' or similar in some way
+
+datapoints in different clusters sholud be far apart or different 
+
+clustering algorithms output a cluster memership index for each datapoint
+
+**Hard cluster**:each datapoint belongs to exactly one cluster
+
+**soft cluster**:each datapoint is assigned a weight score or probablity of membership for each cluter
+
+# k-means clustering
+1.Initialisation :pick the n.o of clusters 'k' u want to find ,then pick k random points to serve as an initial guess for the cluter centers 
+
+2)STEP A: assign each datapoint to the nearest cluster center
+
+3)STEP B:update each cluter center by replacing it with the mean of all points and assingned tp that cluster in (STEP A )
+
+REPEAT STEPS A AND B
+
+the centers converge to a stable solution,  These centers are considered as the final clusters
+
+**limitations of k-meansclustering**: *works well for simple cluters that are same size well-separated ,globular shapes
+
+*does not do well for irregular ,complex dataset
+
+
+
+A glomm
